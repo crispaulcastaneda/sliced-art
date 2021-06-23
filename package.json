@@ -1,0 +1,29 @@
+{
+  "name": "sliced-art",
+  "version": "1.0.0",
+  "description": "Web design of Art collection photography",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crispaulcastaneda/sliced-art.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "UI",
+    "UX",
+    "Figma",
+    "Adobe",
+    "Photoshop"
+  ],
+  "author": "Cristian Paul Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crispaulcastaneda/sliced-art/issues"
+  },
+  "homepage": "https://github.com/crispaulcastaneda/sliced-art#readme"
+}
