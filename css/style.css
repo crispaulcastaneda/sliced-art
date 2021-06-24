@@ -216,8 +216,54 @@ nav img {
 
 .profile img {
     width: 50%;
+    height: 70%;
+}
+
+.profile,
+.work-gallery {
+    text-align: right;
+    align-items: center;
 }
 
 .work-gallery img {
     width: 50%;
+}
+
+/* FOR KE DESIGN */
+.ke-title {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: #285C7B;
+}
+
+.ke-title h1 {
+    font-size: 4em;
+}
+
+.ke-title h3 {
+    text-align: right;
+    font-size: 1em;
+}
+
+.for-ke {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ke-description h3 {
+    padding: 20px 0;
+}
+
+.ke-description {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.ke-gallery {
+    width: 80%;
+}
+
+.ke-gallery img {
+    height: 40vh;
 }
