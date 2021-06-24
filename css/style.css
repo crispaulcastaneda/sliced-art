@@ -212,6 +212,8 @@ nav img {
 .work-gallery {
     display: grid;
     grid-template-columns: repeat(3, 200px);
+    margin: auto;
+    text-align: -webkit-right;
 }
 
 .profile img {
@@ -301,5 +303,49 @@ nav img {
 
     .details p {
         font-size: 1.2em;
+    }
+
+    /* FOR THE PAGES */
+    .story,
+    .my-work {
+        flex-direction: column;
+        text-align: -webkit-center;
+    }
+
+    .story img {
+        width: 250px;
+    }
+
+    .story-description,
+    .work-description {
+        width: 100%;
+    }
+
+    .work-gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        margin: auto;
+        text-align: -webkit-center;
+    }
+
+    .profile {
+        padding-top: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .hero img {
+        height: 300px;
+    }
+
+    .details h1 {
+        font-size: 34px;
+    }
+
+    .details h2 {
+        font-size: 24px;
     }
 }
